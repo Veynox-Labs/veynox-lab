@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <Link
             href="#contact"
-            className="px-6 py-2.5 rounded-full bg-gradient-to-r from-brand-electric to-brand-neon text-white text-sm font-medium hover:shadow-[0_0_20px_rgba(29,161,255,0.4)] transition-shadow">
+            className="px-6 py-2.5 rounded-full bg-linear-to-r from-brand-electric to-brand-neon text-white text-sm font-medium hover:shadow-[0_0_20px_rgba(29,161,255,0.4)] transition-shadow">
             Start Your Project
           </Link>
         </div>
@@ -100,7 +100,7 @@ export default function Navbar() {
               <div className="h-px bg-white/10 my-2" />
               <Link
                 href="#contact"
-                className="text-center px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-electric to-brand-neon text-white font-medium">
+                className="text-center px-5 py-2.5 rounded-full bg-linear-to-r from-brand-electric to-brand-neon text-white font-medium">
                 Start Your Project
               </Link>
             </div>

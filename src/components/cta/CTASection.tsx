@@ -15,14 +15,14 @@ export default function CTASection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="rounded-3xl p-px bg-gradient-to-b from-brand-electric/50 via-brand-neon/20 to-transparent">
+          className="rounded-3xl p-px bg-linear-to-b from-brand-electric/50 via-brand-neon/20 to-transparent">
           <div className="rounded-[23px] bg-bg-secondary/90 backdrop-blur-xl p-10 md:p-16 text-center border border-white/5 relative overflow-hidden">
             {/* Inner subtle glow */}
             <div className="absolute -top-24 -right-24 w-48 h-48 bg-brand-neon/30 rounded-full blur-[50px]"></div>
 
             <h2 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6 tracking-tight">
               Let’s Build Something <br className="hidden md:block" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-electric to-brand-neon">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-electric to-brand-neon">
                 Exceptional
               </span>
             </h2>

@@ -128,7 +128,7 @@ export default function TechWaterfall() {
 
               <div className="relative px-5 py-2.5 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl flex items-center gap-3 overflow-hidden">
                 {/* Subtle sheen reflection inside the pill */}
-                <div className="absolute inset-0 bg-linear-to-tr from-white/0 via-white/5 to-white/0 transform -translate-x-full animate-[shimmer_3s_infinite]"></div>
+                <div className="absolute inset-0 bg-linear-to-tr from-white/0 via-white/5 to-white/0 transform -translate-x-full animate-shimmer"></div>
 
                 <Icon className="text-brand-electric w-4 h-4 md:w-5 md:h-5" />
                 <span className="text-white font-semibold text-sm tracking-wider">
