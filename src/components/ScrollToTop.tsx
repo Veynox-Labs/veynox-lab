@@ -23,7 +23,7 @@ export default function ScrollToTop() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
@@ -35,9 +35,8 @@ export default function ScrollToTop() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 p-3 rounded-full bg-gradient-to-r from-brand-electric to-brand-neon text-white shadow-lg hover:shadow-[0_0_20px_rgba(29,161,255,0.4)] transition-shadow z-50 flex items-center justify-center cursor-pointer border border-white/10"
-          aria-label="Scroll to top"
-        >
+          className="fixed bottom-8 right-8 p-3 rounded-full bg-linear-to-r from-brand-electric to-brand-neon text-white shadow-lg hover:shadow-[0_0_20px_rgba(29,161,255,0.4)] transition-shadow z-50 flex items-center justify-center cursor-pointer border border-white/10"
+          aria-label="Scroll to top">
           <ArrowUp size={24} />
         </motion.button>
       )}
