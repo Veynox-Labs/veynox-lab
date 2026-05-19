@@ -3,10 +3,14 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown, PenTool, MonitorSmartphone, Cloud, Sparkles } from "lucide-react";
 import Image from "next/image";
+import TechWaterfall from "./TechWaterfall";
 
 export default function HeroSection() {
   return (
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex flex-col items-center">
+      {/* Ambient Tech Waterfall Background */}
+      <TechWaterfall />
+
       {/* Background Glows */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-electric/20 rounded-full blur-[100px] -z-10 animate-blob" />
       <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-brand-neon/20 rounded-full blur-[100px] -z-10 animate-blob" style={{ animationDelay: "2s" }} />
