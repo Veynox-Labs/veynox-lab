@@ -1,9 +1,11 @@
 import Navbar from "@/components/navbar/Navbar";
 import HeroSection from "@/components/hero/HeroSection";
-import FeaturesSection from "@/components/features/FeaturesSection";
-import DashboardPreview from "@/components/dashboard/DashboardPreview";
+import ServicesSection from "@/components/services/ServicesSection";
+import PortfolioSection from "@/components/portfolio/PortfolioSection";
+import ProcessSection from "@/components/process/ProcessSection";
+import WhyChooseUsSection from "@/components/features/WhyChooseUsSection";
 import TestimonialsSection from "@/components/testimonials/TestimonialsSection";
-import PricingSection from "@/components/pricing/PricingSection";
+import CTASection from "@/components/cta/CTASection";
 import Footer from "@/components/footer/Footer";
 
 export default function Home() {
@@ -11,10 +13,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col overflow-hidden selection:bg-brand-electric/30 selection:text-white">
       <Navbar />
       <HeroSection />
-      <FeaturesSection />
-      <DashboardPreview />
+      <ServicesSection />
+      <PortfolioSection />
+      <ProcessSection />
+      <WhyChooseUsSection />
       <TestimonialsSection />
-      <PricingSection />
+      <CTASection />
       <Footer />
     </main>
   );
