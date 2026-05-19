@@ -14,8 +14,47 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Veynox Labs | Modern Digital Solutions",
-  description: "We design and develop premium websites, landing pages, and digital experiences that help businesses stand out.",
+  title: {
+    default: "Veynox Labs | Premium Digital Agency",
+    template: "%s | Veynox Labs",
+  },
+  description: "Veynox Labs is a modern digital agency specializing in premium websites, landing pages, UI/UX design, and scalable cloud solutions for startups and growing businesses.",
+  keywords: ["Digital Agency", "Web Development", "UI/UX Design", "Startup Websites", "Landing Pages", "Next.js", "React", "Tech Solutions", "Veynox Labs"],
+  authors: [{ name: "Veynox Labs" }],
+  creator: "Veynox Labs",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://veynoxlabs.com",
+    title: "Veynox Labs | Premium Digital Agency",
+    description: "Modern digital agency specializing in premium websites, landing pages, UI/UX design, and scalable cloud solutions for startups and growing businesses.",
+    siteName: "Veynox Labs",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Veynox Labs Digital Agency",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Veynox Labs | Premium Digital Agency",
+    description: "We design and develop premium websites, landing pages, and digital experiences that help businesses stand out.",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
